@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DueDisplaySimulator", "DueDisplaySimulator\DueDisplaySimulator.csproj", "{6E92ED1C-048C-4336-B3A8-595FD60BE495}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{04267551-F86A-4173-981E-721EDBBC18B3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GHIElectronics.TinyCLR.DUE.Core", "GHIElectronics.TinyCLR.DUE.Core\GHIElectronics.TinyCLR.DUE.Core.csproj", "{C45C1F4A-CA49-49A0-9BFB-4D312F842952}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GHIElectronics.TinyCLR.DUE.Compiler", "GHIElectronics.TinyCLR.DUE.Compiler\GHIElectronics.TinyCLR.DUE.Compiler.csproj", "{90A2A022-2937-458A-A06E-13479BFFEA3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GHIElectronics.TinyCLR.DUE", "GHIElectronics.TinyCLR.DUE\GHIElectronics.TinyCLR.DUE.csproj", "{A4348161-5BCE-4B1B-A85D-7DF8315D741B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GHIElectronics.DUELink", "GHIElectronics.DUELink\GHIElectronics.DUELink.csproj", "{D2CB9BF8-C3FF-45BA-9F21-C938A1EE46B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E92ED1C-048C-4336-B3A8-595FD60BE495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E92ED1C-048C-4336-B3A8-595FD60BE495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E92ED1C-048C-4336-B3A8-595FD60BE495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E92ED1C-048C-4336-B3A8-595FD60BE495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C45C1F4A-CA49-49A0-9BFB-4D312F842952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C45C1F4A-CA49-49A0-9BFB-4D312F842952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C45C1F4A-CA49-49A0-9BFB-4D312F842952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C45C1F4A-CA49-49A0-9BFB-4D312F842952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A2A022-2937-458A-A06E-13479BFFEA3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A2A022-2937-458A-A06E-13479BFFEA3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A2A022-2937-458A-A06E-13479BFFEA3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A2A022-2937-458A-A06E-13479BFFEA3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4348161-5BCE-4B1B-A85D-7DF8315D741B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4348161-5BCE-4B1B-A85D-7DF8315D741B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4348161-5BCE-4B1B-A85D-7DF8315D741B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4348161-5BCE-4B1B-A85D-7DF8315D741B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2CB9BF8-C3FF-45BA-9F21-C938A1EE46B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2CB9BF8-C3FF-45BA-9F21-C938A1EE46B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2CB9BF8-C3FF-45BA-9F21-C938A1EE46B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2CB9BF8-C3FF-45BA-9F21-C938A1EE46B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C45C1F4A-CA49-49A0-9BFB-4D312F842952} = {04267551-F86A-4173-981E-721EDBBC18B3}
+		{90A2A022-2937-458A-A06E-13479BFFEA3F} = {04267551-F86A-4173-981E-721EDBBC18B3}
+		{A4348161-5BCE-4B1B-A85D-7DF8315D741B} = {04267551-F86A-4173-981E-721EDBBC18B3}
+		{D2CB9BF8-C3FF-45BA-9F21-C938A1EE46B9} = {04267551-F86A-4173-981E-721EDBBC18B3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E08D5F9C-219B-4C3F-A281-61CBFC87E9D6}
+	EndGlobalSection
+EndGlobal

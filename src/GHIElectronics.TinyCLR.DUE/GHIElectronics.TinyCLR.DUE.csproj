@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GHIElectronics.TinyCLR.DUE.Compiler\GHIElectronics.TinyCLR.DUE.Compiler.csproj" />
+    <ProjectReference Include="..\GHIElectronics.TinyCLR.DUE.Core\GHIElectronics.TinyCLR.DUE.Core.csproj" />
+  </ItemGroup>
+
+</Project>
